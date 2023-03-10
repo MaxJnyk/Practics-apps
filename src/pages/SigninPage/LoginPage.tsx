@@ -1,6 +1,6 @@
 import { FC } from "react";
 import { Page } from "../../utils/styles";
-import { LoginForm } from "../../components/forms";
+import { LoginForm } from "../../common/components/forms";
 
 interface SigninPageProps {}
 

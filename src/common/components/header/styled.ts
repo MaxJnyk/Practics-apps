@@ -14,7 +14,7 @@ export const Logo = styled(Link)`
   font-weight: bold;
   text-decoration: none;
   font-family: Roboto, sans-serif;
-  color: cadetblue;
+  color: #9151d0;
 `;
 export const HeaderNavbar = styled.nav`
   display: flex;
@@ -34,10 +34,11 @@ export const HeaderNavbarLink = styled(NavLink)`
 
   &:hover,
   &:focus {
-    color: rgba(0, 0, 0, 0.8);
+    color: #9151d0;
+    transition: 0.5s;
   }
 
   &.active {
-    color: rgba(0, 0, 0, 0.8);
+    color: #9151d0;
   }
 `;

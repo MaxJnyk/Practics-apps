@@ -1,6 +1,6 @@
 import { FC } from "react";
 import { Page } from "../../utils/styles";
-import { RegisterForm } from "../../components/forms";
+import { RegisterForm } from "../../common/components/forms";
 
 interface SignupPageProps {}
 

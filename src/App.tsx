@@ -4,7 +4,7 @@ import { HomePage } from "./pages/HomePage/HomePage";
 import { GlobalStyle } from "./utils/styles";
 import { LoginPage } from "./pages/SigninPage/LoginPage";
 import { RegisterPage } from "./pages/SignupPage/RegisterPage";
-import { Header } from "./components/header";
+import { Header } from "./common/components/header";
 
 interface RoutesProps {
   children?: ReactNode;

@@ -1,7 +1,12 @@
 import { configureStore } from "@reduxjs/toolkit";
+import { feedApi } from "../modules/feed/api/repository";
 
 export const store = configureStore({
-  reducer: {},
+  reducer: {
+    [feedApi.reducerPath]: feedApi.reducer,
+  },
+  middleware: (getDefaultMiddleware) =>
+    getDefaultMiddleware().concat(feedApi.middleware),
 });
 
 export type RootState = ReturnType<typeof store.getState>;

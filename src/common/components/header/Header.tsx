@@ -1,5 +1,5 @@
 import { FC } from "react";
-import {} from "../../utils/styles";
+import {} from "../../../utils/styles";
 import {
   HeaderContainer,
   HeaderNavbar,
